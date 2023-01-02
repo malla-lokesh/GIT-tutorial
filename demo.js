@@ -1,1 +1,1 @@
- console.log('I love GIT.');
+ console.log("I don't love GIT.");
