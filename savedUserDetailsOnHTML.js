@@ -10,6 +10,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 showDetails(response.data[i])
             }
         })
+        .catch((error) => {
+            console.log(error)
+        })
 })
 
 function showDetails(details){
